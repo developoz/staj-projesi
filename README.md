@@ -1,5 +1,7 @@
 #staj-projesi github çalışma senaryosu.#
 
+-----------------------------------------------------------------------------
+
 #######Aşama 1: Yerel Çalışma Alanını Kurmak#######
 
 GitHub'daki o boş kutuyu bilgisayarına bir klasör olarak indirmen lazım.
@@ -21,7 +23,7 @@ git commit -m "Initial commit: Proje dokümantasyonu başlatıldı"
 git push origin main
 
 
-
+-------------------------------------------------------------------------------
 
 
 
@@ -36,7 +38,7 @@ Dosya Ekle: iletisim.html adında bir dosya oluştur ve içine rastgele bir şey
 git add .
 git commit -m "Feat: İletişim sayfası iskeleti oluşturuldu"
 
-
+-------------------------------------------------------------------------------
 
 ######Aşama 3: Sunucuya Gönderme ve PR ######
 
@@ -48,7 +50,7 @@ git push -u origin feature/iletisim-sayfasi
 
 Pull Request (PR) Aç: Şimdi GitHub sitesine git. Üstte sarı bir bantla "Compare & pull request" butonu göreceksin.
 
-
+----------------------------------------------------------------------------------
 
 #####Aşama 4: Onay ve Senkronizasyon#####
 
